@@ -9,5 +9,28 @@
 --prussian-blue: #023047ff;
 --selective-yellow: #ffb703ff;
 --ut-orange: #fb8500ff;
-
 }
+
+body{ 
+     background-color: rgb(255, 255, 255);
+     color:gray;
+     font-family: var(--texto-corpo);
+}
+
+.titulo-principal {
+    font-family: var(--texto-corpo);
+}
+
+.cabecalho
+
+
+
+
+
+
+
+
+
+
+
+
