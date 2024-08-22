@@ -1,20 +1,23 @@
+
+
 *{
     margin:0;
     padding:0;
 }
 
 :root{
- --sky-blue: #8ecae6ff;
- --blue-green: #219ebcff;
- --prussian-blue: #023047ff;
- --selective-yellow: #ffb703ff;
- --ut-orange: #fb8500ff;
+ --cor-primaria: #8ecae6ff;
+ --cor-secundaria: #219ebcff;
+ --cor-tercearia: #023047ff;
+ --cor-quartenaria: #ffb703ff;
+ --cor-quinaria: #fb8500ff;
 }
 
 body{ 
-     background-color: rgb(255, 255, 255);
-     color:gray;
-     font-family: var(--texto-corpo);
+     background-color: var(--cor-primaria)
+     color: var(--cor-secundaria)
+     font-family: var(--0)
+    
 }
 
 .titulo-principal {
