@@ -1,9 +1,4 @@
-.texto-corpo {
-    font-family: "texto-corpo", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&display=swap');
 *{
     margin:0;
     padding:0;
@@ -13,19 +8,22 @@
  --cor-primaria: #8ecae6ff;
  --cor-secundaria: #219ebcff;
  --cor-tercearia: #023047ff;
- --cor-quartenaria: #ffb703ff;
- --cor-quinaria: #fb8500ff;
+ --cor-quartenaria: rgb(85, 88, 240);
+ --cor-quinaria: rgb(138, 0, 251);
+ --font-titulo:"Protest Guerrilla", sans-serif;
+ --font-texto:"Oswald", sans-serif;
+
 }
 
 body{ 
-     background-color: var(--cor-primaria)
-     color: var(--cor-secundaria)
-     font-family: var(--te)
+     background-color: var(--cor-primaria);
+     color: var(--cor-secundaria);
+     font-family: var(--font-texto);
     
 }
 
 .titulo-principal {
-    font-family: var(--texto-corpo);
+    font-family: var(--font-titulo);
 }
 
 .cabecalho{ 
@@ -38,22 +36,22 @@ body{
 
 .cabecalho-img{
     width: 10%;
-    border-radius:100% ;
+    border-radius:50% ;
 }
 
 .cabecalho-nav__link{
     text-decoration: none;
     font-family: var(--texto-titulo);
-    font-size: 24px;
-    color:var (var(--cor-primaria));
+    font-size: 50px;
+    color:var(--cor-quartenaria);
     margin-right:24px; 
 }
 
 .cabecalho-nav__link:hover{
-    color:var(--cor-secundaria);
+    color:var(--cor-tercearia);
     font-size: 46px;
     transition: 0.5ms;
-    text-shadow: 2px 2px 20px var(--cor-tercearia);
+    text-shadow: 2px 2px 20px var(--cor-secundaria);
 }
 
 
